@@ -11,7 +11,7 @@ function dodaj(e) {
 
     let podaci = UI.pokupiSaForme();
 
-    if (podaci.title == "" || podaci.author == "" || podaci.isbn == "") {
+    if (podaci.title === "" || podaci.author == "" || podaci.isbn == "") {
 
         ui.prikaziAlert("Nisi popunjeni svi podaci", 'error');
     } else {
