@@ -1,7 +1,7 @@
 import { Book } from "./Book.js";
 import { UI } from "./UI.js";
 const ui = new UI();
-
+alert("radi");
 document.querySelector("#book-form").addEventListener("submit", dodaj);
 
 document.querySelector("#book-list").addEventListener("click",brisi);
